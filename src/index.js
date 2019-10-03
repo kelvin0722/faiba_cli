@@ -49,4 +49,4 @@ vorpal
     next();
   });
 
-vorpal.delimiter("faiba_cli$").show();
+vorpal.delimiter(chalk.green("faiba_cli$")).show();
