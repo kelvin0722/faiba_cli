@@ -1,0 +1,18 @@
+{
+  "name": "faiba_cli",
+  "version": "0.0.1",
+  "description": "faiba is an unoffical cli for faiba jamii telkom.",
+  "main": "src/index.js",
+  "author": "kelvinm442",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chalk": "^2.4.2",
+    "dotenv": "^8.1.0",
+    "lodash": "^4.17.15",
+    "vorpal": "^1.12.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
