@@ -17,7 +17,7 @@ vorpal
           ? chalk.red(airtimeBalance)
           : chalk.green(airtimeBalance);
 
-      this.log(`Dear user your, your airtime balance is ${balanceIndicator}`);
+      this.log(`Dear user your airtime balance is ${balanceIndicator}`);
     } catch (error) {
       this.log(`Check airtime Failed. Reason: ${chalk.red(error.message)}`);
     }
